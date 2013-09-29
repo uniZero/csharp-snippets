@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>_cmdListOptions</Title>
+      <Author>Dillon Sylvestre</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>_cmdListOptions</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>A</ID>
+          <ToolTip>A</ToolTip>
+          <Default>A</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>B</ID>
+          <ToolTip>B</ToolTip>
+          <Default>B</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>C</ID>
+          <ToolTip>C</ToolTip>
+          <Default>C</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Option_1</ID>
+          <ToolTip>Option_1</ToolTip>
+          <Default>Option A</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Option_2</ID>
+          <ToolTip>Option_2</ToolTip>
+          <Default>Option B</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>Option_3</ID>
+          <ToolTip>Option_3</ToolTip>
+          <Default>Option C</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[// Prompt the user to choose an option
+Console.WriteLine("Pick an option:" + "\n");
+
+// List all available options
+Console.WriteLine("$A$. " + "$Option_1$");
+Console.WriteLine("$B$. " + "$Option_2$");
+Console.WriteLine("$C$. " + "$Option_3$");]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

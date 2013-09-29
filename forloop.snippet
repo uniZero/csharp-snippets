@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>forloop</Title>
+      <Author>Dillon Sylvestre</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>_for</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>minNum</ID>
+          <ToolTip>minNum</ToolTip>
+          <Default>1</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>maxNum</ID>
+          <ToolTip>maxNum</ToolTip>
+          <Default>5</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[// Using a for loop, we'll execute the encapsulated code $maxNum$ time(s)
+// Each loop passed will increment i by one until its $maxNum$ (starting from $minNum$)
+for (int i = $minNum$; i <= $maxNum$; i++)
+{
+    // Console.WriteLine(i);$end$
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

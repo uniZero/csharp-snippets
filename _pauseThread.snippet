@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>_pauseThread</Title>
+      <Author>Dillon Sylvestre</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>_pauseThread</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>ms</ID>
+          <ToolTip>Time to pause in milliseconds</ToolTip>
+          <Default>5000</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[// Pause thread for $ms$ millisecond(s)
+Thread.Sleep($ms$);]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

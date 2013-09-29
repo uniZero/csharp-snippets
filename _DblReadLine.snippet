@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Keywords>
+        <Keyword>Double ReadLine()</Keyword>
+      </Keywords>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>_DoubleReadLine</Title>
+      <Author>UniZero</Author>
+      <Description>Parses double data types when using ReadLine() method</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>_DblReadLine</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>value</ID>
+          <ToolTip>value</ToolTip>
+          <Default>aDoubleValue</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>variable</ID>
+          <ToolTip>variable</ToolTip>
+          <Default>aDoubleVariable</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[// Prompt user for $value$ and wait for input
+Console.Write("Enter $value$: ");
+// Parse inputed value from string to double and assign result to $variable$ variable
+Double.TryParse(Console.ReadLine(), out $variable$);]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
